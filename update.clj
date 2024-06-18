@@ -1,6 +1,3 @@
-
-
-
 (config
  (text-field
   :name "clientId" ; name is fixed
@@ -43,6 +40,3 @@
 (entity COMPANY
         (api-docs-url "https://developer.paychex.com/documentation#tag/Company")
         (source (http/get :url "/companies")
-                
-                ) 
-        )
