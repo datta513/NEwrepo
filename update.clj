@@ -1,6 +1,3 @@
-
-
-
 (config
  (text-field
   :name "clientId" ; name is fixed
@@ -39,10 +36,3 @@
     (when :status 402 :action fail)
     (when :status 403 :action fail)
   ))
-    
-(entity COMPANY
-        (api-docs-url "https://developer.paychex.com/documentation#tag/Company")
-        (source (http/get :url "/companies")
-                
-                ) 
-        )
